@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vidisha Enterprises | Uttar Pradesh</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header>
+    <div class="logo">Vidisha Enterprises</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="owner-profile">
+        <img src="owner-photo.jpg" alt="Owner of Vidisha Enterprises" class="owner-photo" />
+        <h2>Owner: Mr. Manish Singh</h2>
+      </div>
+      <h1>Welcome to Vidisha Enterprises</h1>
+      <p>Reliable business solutions from Uttar Pradesh.</p>
+      <a href="#contact" class="btn">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+      Vidisha Enterprises is a trusted name in Uttar Pradesh known for quality and customer satisfaction.
+      Our focus is on providing top-notch services that help your business grow.
+    </p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-box">
+      <h3>Business Solutions</h3>
+      <p>We offer end-to-end business support and management solutions.</p>
+    </div>
+    <div class="service-box">
+      <h3>Consultancy</h3>
+      <p>Expert advice and planning for sustainable business growth.</p>
+    </div>
+    <div class="service-box">
+      <h3>Support</h3>
+      <p>Dedicated team available to assist you anytime.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>We’d love to hear from you. Reach us through the form, WhatsApp, or email.</p>
+
+    <!-- Contact Form -->
+    <form id="contactForm" onsubmit="submitForm(event)">
+      <label>
+        Name:
+        <input type="text" id="name" required placeholder="Your Name" />
+      </label>
+      <label>
+        Email:
+        <input type="email" id="email" required placeholder="Your Email" />
+      </label>
+      <label>
+        Message:
+        <textarea id="message" required placeholder="Your Message"></textarea>
+      </label>
+      <button type="submit" class="btn">Send Message</button>
+      <p id="formStatus" style="margin-top:10px;color:green;"></p>
+    </form>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/916201871651" target="_blank" class="whatsapp-btn">Chat on WhatsApp</a>
+
+    <!-- Email & Location -->
+    <p>Email: <a href="mailto:contact@vidishaenterprises.com">contact@vidishaenterprises.com</a></p>
+    <p>Location: Uttar Pradesh, India</p>
+
+    <!-- Google Map Embed -->
+    <div class="map-container" style="margin-top:20px;">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3555.123456!2d80.945!3d26.846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c1234567890ab%3A0xabcdef1234567890!2sUttar+Pradesh%2C+India!5e0!3m2!1sen!2sin!4v1699970000000" 
+        width="100%" 
+        height="300" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Vidisha Enterprises | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
